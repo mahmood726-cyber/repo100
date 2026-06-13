@@ -1,6 +1,6 @@
 # repo100
 
-**A curated collection of meta-regression–ready datasets** (currently **137** sets).
+**A curated collection of meta-regression–ready datasets** (currently **142** sets).
 
 Each dataset is a CSV with `yi`, `vi`, `measure`, and harmonized moderators in `inst/extdata/metareg/`.
 See `_manifest.csv` for a summary and provenance.

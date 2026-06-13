@@ -66,12 +66,11 @@ metareg_datasets <- function() {
 #' @return A data.frame with columns including \code{yi}, \code{vi}, \code{measure}
 #'   and the available moderators.
 #' @examples
-#' #'   ids <- metareg_datasets()
-#'   dat <- metareg_read(ids[1])
-#'   str(dat)
+#' ids <- metareg_datasets()
+#' dat <- metareg_read(ids[1])
+#' str(dat)
 #'
 #' @export
-#' Meta-regression dataset helpers
 metareg_read <- function(id) {
   stopifnot(length(id) == 1, nchar(id) > 0)
   root <- .metareg_root()
