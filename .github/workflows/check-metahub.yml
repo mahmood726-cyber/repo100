@@ -1,12 +1,12 @@
 name: R-CMD-check (metahub)
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - "metahub/**"
       - ".github/workflows/check-metahub.yml"
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - "metahub/**"
 jobs:
